@@ -7,12 +7,13 @@ public static void main(String[] args) {
 		Calculadora op = new Calculadora();
 		double resultado = 0;
 		
-		System.out.println("Bem-vindo a Calculadora");
+		System.out.println("Bem-vindo a Calculadora Java");
 		
 		System.out.println("Digite um número: ");
 		double numero1 = leitor.nextDouble();
 		
-		System.out.println("Digite um operador: ");
+		System.out.println("Para proseguimos você deverá digitar um operador \nuse (+ para somar), (- para subtrair), (* para multiplicar) ou (/ para dividir)");
+		System.out.println("Digite o operador: ");
 		String operador = leitor.next();
 		
 		System.out.println("Digite outro número: ");
